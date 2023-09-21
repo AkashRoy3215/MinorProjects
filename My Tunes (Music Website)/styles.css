@@ -1,0 +1,284 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+/* styling of nav bar or we can say that header */
+.header {
+  background-color: rgb(39, 38, 38);
+  height: 45px;
+  width: 100vw;
+}
+.nav {
+  margin-left: 10px;
+  display: flex;
+  text-align: center;
+  font-size: 18px;
+  gap: 5px;
+}
+.nav div {
+  width: 88px;
+  padding: 11px;
+}
+.nav div:hover {
+  /* width: 100px; */
+  font-size: 19px;
+  background-color: rgb(70, 69, 69);
+  color: antiquewhite;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+/* a background image is styled in this */
+.image_1 {
+  background-image: url("./Images/wp9175877-instruments-4k-wallpapers.jpg");
+  height: 620px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* title is to be styled of first block */
+.title {
+  font-size: 55px;
+  color: rgb(216, 154, 39);
+  font-weight: bolder;
+}
+.description {
+  font-size: 35px;
+  color: wheat;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.caption {
+  font-size: 20px;
+  color: wheat;
+  text-align: center;
+  margin-top: 50px;
+}
+/* styling of second block */
+.second_block {
+  height: 900px;
+  background-color: rgba(24, 23, 23, 0.856);
+  display: flex;
+  flex-direction: column;
+}
+.second_block a {
+  margin-top: 10px;
+  margin-left: 580px;
+  padding-top: 19px;
+  padding-left: 8px;
+  height: 80px;
+  width: 200px;
+  border-radius: 3px;
+  background-color: rgb(235, 22, 22);
+  color: white;
+  text-decoration: none;
+  font-size: 3.5vh;
+}
+
+.second_block a:hover {
+  background-color: rgb(227, 66, 66);
+}
+.second_block h1 {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bolder;
+}
+.subtitle {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bolder;
+}
+/* a small paragraph is to be written class name as music caption is styled. */
+.music_caption {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.second_block button {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  margin-left: 570px;
+  margin-top: 30px;
+  border: red 1px solid;
+}
+
+.image {
+  background-image: url("./Images/wp9291725-4k-musical-instrument-wallpapers.jpg");
+  height: 700px;
+  width: 1000px;
+  margin-top: 12px;
+  margin-left: 170px;
+  background-size: cover;
+}
+/* styling of third block */
+.third_block {
+  height: 820px;
+  background-color: rgb(248, 248, 247);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.third_block .ReadMoreBtn {
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-left: 4px;
+  text-decoration: none;
+  height: 50px;
+  width: 80px;
+  background-color: skyblue;
+  color: white;
+  margin-left: 600px;
+}
+.third_block .ReadMoreBtn:hover {
+  background-color: rgb(106, 196, 232);
+}
+.third_block h1 {
+  text-align: center;
+}
+.third_block .tabletImage {
+  position: absolute;
+  height: 500px;
+  width: 900px;
+  margin-left: 200px;
+  margin-top: 270px;
+  border-top: black 10px solid;
+  border-bottom: 10px solid black;
+  border-right: 50px solid black;
+  border-left: 50px solid black;
+  border-radius: 40px;
+  z-index: 1;
+}
+.ImageOnTop {
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 280px;
+  z-index: 2;
+  height: 480px;
+  width: 800px;
+}
+
+.third_description {
+  margin-top: 30px;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+}
+.fourth_block {
+  display: flex;
+  flex-direction: column;
+  background-image: url(./Images/wp11515147-hindi-music-wallpapers.jpg);
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+}
+/* stying of fourth block */
+.fourth_block h1 {
+  color: white;
+}
+/* all paragraph tags are styled under class named fourth block. */
+.fourth_block p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+/* styling of fifth block */
+.fifth_block {
+  display: flex;
+  height: 400px;
+  background-color: white;
+  padding: 30px;
+}
+.fifth_block hr {
+  margin-left: 60px;
+}
+.fifth_block a {
+  text-decoration: none;
+  color: black;
+  margin-left: 60px;
+  font-size: 17px;
+}
+.fifth_block a:hover {
+  color: red;
+}
+/* class name content is to be styled  and the paragraph and heading tag is styled under content class. */
+.content {
+  display: flex;
+  flex-direction: column;
+}
+.content h1 {
+  margin-left: 60px;
+}
+.content p {
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.footer {
+  padding-top: 40px;
+  height: 220px;
+  background-color: rgb(34, 32, 32);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+}
+
+.footer li {
+  list-style-type: none;
+  padding-top: 8px;
+  font-family: sans-serif;
+}
+.footer li:hover {
+  color: antiquewhite;
+}
+/* footer styling */
+/* column added so the column style is to be applied. */
+.first_col a {
+  text-decoration: none;
+  color: white;
+}
+.second_col a {
+  text-decoration: none;
+  color: white;
+}
+.third_col a {
+  text-decoration: none;
+  color: white;
+}
+.fourth_col a {
+  text-decoration: none;
+  color: white;
+}
+.copyright {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(75, 72, 72);
+  padding: 20px;
+}
+@media (max-width: 400px) {
+  .header {
+    height: 300px;
+  }
+}
+@media (max-width: 400px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
