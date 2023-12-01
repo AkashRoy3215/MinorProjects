@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result Page</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Congratulations, <span id="resultUserName">Username</span>!</h1>
+      <!-- Your result data will be displayed here -->
+      <div id="resultData">
+        <p>Category: <span id="resultCategory">Category Name</span></p>
+        <p>Correct Answers: <span id="resultCorrectAnswers">0</span></p>
+        <p>Wrong Answers: <span id="resultWrongAnswers">0</span></p>
+        <p>Total Time Taken: <span id="resultTotalTime">0</span> seconds</p>
+      </div>
+      <button class="btn" id="restartButton">Restart</button>
+    </div>
+    <script src="result.js"></script>
+  </body>
+</html>

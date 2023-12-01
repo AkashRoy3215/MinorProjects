@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  padding: 15px;
+}
+p {
+  padding: 17px;
+}
+h3 {
+  padding: 10px;
+}
+hr {
+  margin-left: 50px;
+  width: 400px;
+  border: 1px solid rgb(182, 180, 180);
+}
+.logo {
+  height: 70px;
+  padding-top: 20px;
+}
+.container {
+  text-align: center;
+  min-width: 500px;
+  max-width: 700px;
+  min-height: 600px;
+  margin: 0 440px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.btn {
+  width: 200px;
+  font-size: medium;
+  padding: 10px;
+  padding: 15px;
+  background-color: aliceblue;
+  border: 2px solid lightblue;
+  border-radius: 5px;
+  text-decoration: none;
+  color: rgb(39, 130, 153);
+}
+.button-row {
+  display: flex; /* Display the buttons in a row */
+  justify-content: center; /* Center the buttons horizontally */
+  align-items: center; /* Center the buttons vertically */
+  margin-bottom: 10px; /* Add margin between rows */
+}
+.category-button {
+  width: 200px;
+  font-size: medium;
+  padding: 10px;
+  padding: 15px;
+  background-color: aliceblue;
+  border: 2px solid lightblue;
+  border-radius: 5px;
+  text-decoration: none;
+  color: rgb(39, 130, 153);
+}
+.category-button:hover {
+  background-color: rgb(208, 232, 252);
+}
+.btn-link {
+  display: block;
+  margin: 0 5px; /* Add margin between buttons */
+}
+.btn:hover {
+  background-color: rgb(208, 232, 252);
+}
+.enter-button {
+  /* display: none; Initially hide the "Enter" button */
+  margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  font-size: medium;
+  padding: 10px;
+  background-color: aliceblue; /* Set the background color to match the hover color */
+  border: 4px solid rgb(157, 187, 197);
+  border-radius: 0px;
+  text-decoration: none;
+  color: rgb(39, 130, 153);
+}
+/* Style the button container */
+.button-container {
+  display: flex;
+  flex-direction: column; /* Arrange buttons vertically */
+  align-items: center; /* Center horizontally */
+}
+
+/* Style the category buttons within the container */
+.button-container .category-button {
+  width: 100%; /* Make the category buttons full width within the container */
+  margin: 5px 0; /* Add margin between category buttons */
+}
+
+/* Show the "Enter" button when a category is selected */
+.category-selected .enter-button {
+  display: block;
+}
+#nameInput {
+  height: 28px;
+  border: 1px solid rgb(179, 175, 175);
+  border-radius: 3px;
+  padding: 2px;
+  width: 300px;
+}
+.question-box {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the question number and timer section */
+.question-number {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#question-count {
+  font-weight: bold;
+}
+
+#timer {
+  font-weight: bold;
+  color: #e74c3c; /* Red color for timer */
+}
+
+/* Style the question text */
+#question-text {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+/* Style the answer options */
+.options {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.option {
+  padding: 10px;
+  margin: 5px 0;
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.option:hover {
+  background: #e5e5e5;
+}
+
+/* Style the Next button */
+#next-button {
+  width: 100px;
+  padding: 10px;
+  background-color: #3498db; /* Blue color for the button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#next-button:disabled {
+  background-color: #ccc; /* Gray color for disabled button */
+  cursor: not-allowed;
+}
+.correct-answer {
+  background-color: green;
+}
+
+.wrong-answer {
+  background-color: red;
+}
